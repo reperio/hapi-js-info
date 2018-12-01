@@ -48,3 +48,6 @@ Environment variables that can be customized
     "timestamp": "2018-12-01T14:52:40.071Z"
 }
 ```
+
+## Tests
+Tests are written with jest and can be run with `yarn test`
