@@ -20,5 +20,8 @@
   "homepage": "https://github.com/reperio/hapi-js-info#readme",
   "dependencies": {
     "@reperio/hapijs-starter": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   }
 }
