@@ -7,10 +7,12 @@ Server can be started with the command: `yarn start`
 ## Overrideable Properties
 Environment variables that can be customized  
 
-| Variable Name      | Type    | Default Value  | Description          |  
-|--------------------|---------|----------------|----------------------|  
-| HAPI_JS_INFO_HOST  | string  | '0.0.0.0'      | HapiJS host binding  |  
-| HAPI_JS_INFO_PORT  | number  | 3000           | HapiJS port binding  |  
+| Variable Name                    | Type    | Default Value  | Description                        |  
+|----------------------------------|---------|----------------|------------------------------------|  
+| HAPI_JS_INFO_HOST                | string  | '0.0.0.0'      | HapiJS host binding                |  
+| HAPI_JS_INFO_PORT                | number  | 3000           | HapiJS port binding                |  
+| HAPI_JS_INFO_RECENT_PATH         | string  | '/recent'      | Path to get recent requests        |
+| HAPI_JS_INFO_NUM_RECENT_REQUESTS | number  | 10             | Number of recent requests to cache |
 
 ## Example Request Log
 ```json

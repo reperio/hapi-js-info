@@ -7,5 +7,9 @@ module.exports = {
         corsOrigins: ['*'],
         authEnabled: false,
         defaultRoute: false
+    },
+    recentRequests: {
+        path: process.env.HAPI_JS_INFO_RECENT_PATH || '/recent',
+        numRequests: process.env.HAPI_JS_INFO_NUM_RECENT_REQUESTS || 10
     }
 };
